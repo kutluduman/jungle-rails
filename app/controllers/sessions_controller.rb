@@ -17,5 +17,7 @@ class SessionsController < ApplicationController
   end
 
   def destroy
+    session[:user_id] = nil # removes the cookie session
+    redirect_to :root
   end
 end
