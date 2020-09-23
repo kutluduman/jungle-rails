@@ -2,13 +2,14 @@
 
 A mini e-commerce application built with Rails 4.2.
 
+The purpose of this project was to learn Ruby on Rails. 
+
 
 ## Screenshots
 
 !["home_page"](https://github.com/kutluduman/jungle-rails/blob/master/docs/home_page.png?raw=true)
 !["my_cart"](https://github.com/kutluduman/jungle-rails/blob/master/docs/my_cart.png?raw=true)
 !["admin_page"](https://github.com/kutluduman/jungle-rails/blob/master/docs/admin_products.png?raw=true)
-
 
 
 ## Getting Started
@@ -21,6 +22,22 @@ A mini e-commerce application built with Rails 4.2.
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
 8. Run `bin/rails s -b 0.0.0.0` to start the server
+
+## Features
+
+* Register/Login implemented using bcrypt with Rails
+* Authenticated admins can add/edit/delete products and categories
+* Users can add items directly from the home page to their cart
+* Products are divided into categories and can be seen in their own category
+* Users can complete their order by using stripe and see the details of their order
+
+
+## Testing
+
+The functionalities of this app was tested with:
+
+* RSpec for unit testing
+* Capybara integration testing
 
 
 ## Dependencies
