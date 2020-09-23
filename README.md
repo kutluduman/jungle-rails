@@ -8,7 +8,7 @@ A mini e-commerce application built with Rails 4.2.
 !["home_page"](https://github.com/kutluduman/jungle-rails/blob/master/docs/home_page.png?raw=true)
 !["my_cart"](https://github.com/kutluduman/jungle-rails/blob/master/docs/my_cart.png?raw=true)
 !["admin_page"](https://github.com/kutluduman/jungle-rails/blob/master/docs/admin_products.png?raw=true)
-!["category"](https://github.com/kutluduman/jungle-rails/blob/master/docs/category.png?raw=true)
+
 
 
 ## Getting Started
